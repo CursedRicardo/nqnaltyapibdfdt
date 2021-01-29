@@ -2,8 +2,8 @@ const discord = require("discord.js");
 const client = new discord.Client();
 
 client.on("ready", () => {
-    console.log("[--------------------- R E A D Y ---------------------]");
-    client.user.setActivity("I am NQN 2");
+    console.log("Başarıyla Bot Aktif Edildi https://youtube.com/c/bdfdt");
+    client.user.setActivity("BDFDT NQN ALTYAPI");
 })
 
 client.on("message", async (message) => {
@@ -51,10 +51,8 @@ client.on("message", async (message) => {
 
 
 
-client.login("NzI1MDI2NDg3NjE0MzA4NDMz.XvIviA.cyfOXZn987pX9ZRNO9lDjwSRPGQ");
+client.login("Tokeninizi Buraya Girin");
 
-
-//--------------------------------------------------- F U N C T I O N S --------------------------------------
 
 function get_substrings_between(str, startDelimiter, endDelimiter) {
     var contents = [];
